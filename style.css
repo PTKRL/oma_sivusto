@@ -1,0 +1,92 @@
+body {
+  background: #bec3c1;
+  color: #000;
+  font-family: Calibri, arial, sans-serif;
+  line-height: 1.4em;
+}
+
+a {
+  color: #0e1614;
+  text-decoration: none;
+}
+
+ul {
+  padding: 0;
+}
+
+.clr {
+  clear: both;
+}
+
+#container {
+  background: #eeeeea;
+  width: 960px;
+  margin: 30px auto;
+  overflow: hidden;
+  padding: 10px;
+}
+
+#nav {
+  height: 40px;
+  background: #ced4d2;
+}
+
+#nav ul {
+  padding-top: 10px;
+  padding-left: 10px;
+}
+
+#nav li {
+  list-style: none;
+  float: left;
+  padding-right: 20px;
+}
+
+#nav .active {
+  font-weight: bold;
+  color: #000;
+}
+
+#main {
+  float: left;
+  width: 60%;
+}
+
+#sidebar {
+  float: right;
+  width: 30%;
+  background: #ced4d2;
+  margin-top: 20px;
+  padding: 10px 20px 10px 20px;
+  border-radius: 10px;
+}
+
+#footer {
+  text-align: center;
+  padding: 10px;
+  background: #ced4d2;
+  margin-top: 30px;
+}
+
+.ajankohtaista li {
+  padding-bottom: 10px;
+  margin-left: 20px;
+  margin-top: -10px;
+}
+
+.opintojaksot li {
+  border-bottom: 2px;
+  padding-bottom: 20px;
+  margin-left: 20px;
+}
+.opintojaksot a {
+  background: #ced4d2;
+  padding: 10px;
+}
+
+input,
+textarea {
+  width: 100%;
+  padding: 5px;
+  margin-bottom: 15px;
+}
